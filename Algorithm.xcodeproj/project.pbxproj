@@ -24,6 +24,7 @@
 		5C6DD9852337A84000A2F610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6DD98E2337A8BA00A2F610 /* 1.Scale.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.Scale.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C6DD98F2337A8DC00A2F610 /* Summary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Summary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5C912D642337BD1600995C04 /* 2.Blackjack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2.Blackjack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				5C6DD98E2337A8BA00A2F610 /* 1.Scale.playground */,
+				5C912D642337BD1600995C04 /* 2.Blackjack.playground */,
 			);
 			path = Solve;
 			sourceTree = "<group>";
