@@ -3,6 +3,7 @@ import UIKit
 /*:
  ### 블랙잭
  * 백준 : 2798문제
+ * 문제 유형: 배열, 완전 탐색
  * [BAEKJOON](https://www.acmicpc.net/problem/2798)
  */
 
@@ -36,4 +37,3 @@ for i in (0..<data.count) {
 }
 
 print(result)
-
