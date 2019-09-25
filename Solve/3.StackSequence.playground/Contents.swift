@@ -23,7 +23,9 @@ var result: [String] = []
 
 for _ in (1...inputCount) {
     let data = Int(readLine()!)!
+    
 //    let data = inputValue[i - 1]
+    
     while count <= data {
         stack.append(count)
         count += 1
