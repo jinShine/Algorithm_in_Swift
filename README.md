@@ -1,2 +1,2 @@
 # Algorithm_in_Swift
-Solve the Backjun algorithm problem using swift
+Solve the Baekjoon algorithm problem using swift
