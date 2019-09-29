@@ -1,3 +1,2 @@
 # Algorithm_in_Swift
-Algorithm in Swift
-
+Solve the Backjun algorithm problem using swift
