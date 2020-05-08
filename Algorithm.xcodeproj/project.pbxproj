@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36AD36CF2465CCC0005F7AC4 /* 1.Decryption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.Decryption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C606DFA2339058C00E82BCF /* 3.StackSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3.StackSequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C6DD9762337A83E00A2F610 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6DD9792337A83E00A2F610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,11 +40,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36AD36CE2465CC72005F7AC4 /* CodingTest_Lecture */ = {
+			isa = PBXGroup;
+			children = (
+				36AD36CF2465CCC0005F7AC4 /* 1.Decryption.playground */,
+			);
+			path = CodingTest_Lecture;
+			sourceTree = "<group>";
+		};
 		5C6DD96D2337A83E00A2F610 = {
 			isa = PBXGroup;
 			children = (
+				36AD36CE2465CC72005F7AC4 /* CodingTest_Lecture */,
 				5C6DD98B2337A87600A2F610 /* Summary */,
-				5C6DD98D2337A89000A2F610 /* Solve */,
+				5C6DD98D2337A89000A2F610 /* Question */,
 				5C6DD9782337A83E00A2F610 /* Algorithm */,
 				5C6DD9772337A83E00A2F610 /* Products */,
 			);
@@ -78,14 +88,14 @@
 			path = Summary;
 			sourceTree = "<group>";
 		};
-		5C6DD98D2337A89000A2F610 /* Solve */ = {
+		5C6DD98D2337A89000A2F610 /* Question */ = {
 			isa = PBXGroup;
 			children = (
 				5C6DD98E2337A8BA00A2F610 /* 1.Scale.playground */,
 				5C912D642337BD1600995C04 /* 2.Blackjack.playground */,
 				5C606DFA2339058C00E82BCF /* 3.StackSequence.playground */,
 			);
-			path = Solve;
+			path = Question;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
