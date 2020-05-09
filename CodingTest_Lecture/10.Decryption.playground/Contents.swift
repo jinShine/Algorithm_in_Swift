@@ -42,3 +42,11 @@ func solution(_ s: [String]) -> String {
 }
 
 solution(text)
+
+
+var x = 0
+for i in 1...5 {
+ x += i
+}
+
+print(x)
