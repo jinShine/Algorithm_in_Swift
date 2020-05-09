@@ -16,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		36AD36CF2465CCC0005F7AC4 /* 1.Decryption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.Decryption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		36FE5CCD246685C600045FD6 /* 4.Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4.Tuple.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C606DFA2339058C00E82BCF /* 3.StackSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3.StackSequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C6DD9762337A83E00A2F610 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6DD9792337A83E00A2F610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 				5C6DD98E2337A8BA00A2F610 /* 1.Scale.playground */,
 				5C912D642337BD1600995C04 /* 2.Blackjack.playground */,
 				5C606DFA2339058C00E82BCF /* 3.StackSequence.playground */,
+				36FE5CCD246685C600045FD6 /* 4.Tuple.playground */,
 			);
 			path = Question;
 			sourceTree = "<group>";
