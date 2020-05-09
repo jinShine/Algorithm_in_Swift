@@ -27,4 +27,18 @@ let text = ["+ -- + - + -",
             "+ -- + - + -",
             "+ - + - + - +"]
 
+func solution(_ s: [String]) -> String {
+  
+  let decryptionCode = s.map {
+    $0.replacingOccurrences(of: " ", with: "")
+    .replacingOccurrences(of: "+", with: "1")
+    .replacingOccurrences(of: "-", with: "0")
+  }
+  .map { Int($0, radix: 2)! }
+  .map { Unicode.Scalar($0)! }
+  .map { String($0) }
+  
+  return decryptionCode.joined()
+}
 
+solution(text)
