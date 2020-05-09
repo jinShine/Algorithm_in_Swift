@@ -69,8 +69,49 @@ sigmaFunc(5)
 
 // 재귀함수를 이용한 이진수 구하기
 
-func getBinary
+func getBinary(_ n: Int) -> String {
+  if n < 2 {
+    return String(n)
+  } else {
+    return String(getBinary(n / 2)) + String((n % 2))
+  }
+}
+
+getBinary(11)
 
 
+// 피보나치
+
+var a = 0
+var b = 1
+
+for i in 1...5 {
+  a = i
+  b = a + b
+}
+
+func fibonacciFunc(_ n: Int) -> Int {
+  if n < 1 {
+    return 1
+  } else {
+    return fibonacciFunc(n - 1) + fibonacciFunc(n - 2)
+  }
+}
+
+print(fibonacciFunc(5))
 
 
+// comma
+
+func comma(_ s: String) -> String {
+  if s.count < 3 {
+    return s
+  } else {
+    let remainderIndex = s.index(s.startIndex, offsetBy: 0) ..< s.index(s.endIndex, offsetBy: -3)
+    let dropIndex = s.index(s.endIndex, offsetBy: -3) ..< s.index(s.endIndex, offsetBy: 0)
+    
+    return comma(String(s[remainderIndex])) + "," + String(s[dropIndex])
+  }
+}
+
+comma("10000000")

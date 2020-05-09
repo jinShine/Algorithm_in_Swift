@@ -18,6 +18,7 @@
 		36AD36CF2465CCC0005F7AC4 /* 10.Decryption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 10.Decryption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36FE5CCD246685C600045FD6 /* 4.Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4.Tuple.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36FE5CCE2466A32500045FD6 /* 1.Recursive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.Recursive.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		36FE5CCF2467191B00045FD6 /* 2.Sort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2.Sort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C606DFA2339058C00E82BCF /* 3.StackSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3.StackSequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C6DD9762337A83E00A2F610 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6DD9792337A83E00A2F610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				36FE5CCE2466A32500045FD6 /* 1.Recursive.playground */,
+				36FE5CCF2467191B00045FD6 /* 2.Sort.playground */,
 				36AD36CF2465CCC0005F7AC4 /* 10.Decryption.playground */,
 			);
 			path = CodingTest_Lecture;
