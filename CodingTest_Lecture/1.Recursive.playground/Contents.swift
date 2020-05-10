@@ -77,8 +77,6 @@ func getBinary(_ n: Int) -> String {
   }
 }
 
-getBinary(11)
-
 
 // 피보나치
 

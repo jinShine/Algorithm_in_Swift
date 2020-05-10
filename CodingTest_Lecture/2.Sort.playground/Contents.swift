@@ -17,7 +17,6 @@ let 입력값 = [5, 10, 2, 73, 15, 6, 66]
 
 
 func getMin(_ nums: [Int]) -> Int {
-  
   var min = nums.first!
   
   nums.forEach {
@@ -51,3 +50,28 @@ func getMinIndex(_ nums: [Int]) -> Int {
 }
 
 getMinIndex(입력값)
+
+
+/*:
+### 삽입 정렬
+ * 삽입 정렬은 2번째 원소부터 시작해서 그 앞의 원소들과 비교해서 삽입할 위치를 지정한 후 그 자리에 삽일을 하는 정렬.
+*/
+
+func insertion(_ nums: [Int]) -> [Int] {
+  var list: [Int] = nums
+  
+  for i in 1..<list.count {
+    var index = i
+    
+    // 첫 0인덱스는 못들어옴
+    while index > 0 && list[index] < list[index - 1] {
+      list.swapAt(index, index-1)
+      index -= 1
+    }
+  }
+
+  return list
+}
+
+insertion(입력값)
+  
