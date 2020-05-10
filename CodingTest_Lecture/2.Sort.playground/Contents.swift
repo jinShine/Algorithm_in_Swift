@@ -4,7 +4,7 @@ import UIKit
  ![정렬 알고리즘 시간복잡도 비교](./sort-time-complexity.png)
  */
 
-let 입력값 = [5, 10, 2, 73, 15, 6, 66]
+let 입력값 = [5, 10, 2, 73, 15, 6, 66, 3]
 
 /*:
 ### 선택 정렬
@@ -75,3 +75,53 @@ func insertion(_ nums: [Int]) -> [Int] {
 
 insertion(입력값)
   
+
+/*:
+### 병합 정렬
+ * worst, best가 O(nlogn) 이기 때문에 병합정렬이 가장 빠르다.
+ * 분할, 정복
+ 
+  // 분할
+ 1. [5, 10, 2, 73], [15, 6, 66,  3]
+ 2. [5, 10], [2, 73], [15, 6], [66, 3]
+ 3. [5], [10],[ 2],[73], [15], [6], [66], [3]
+ 
+  // 정복
+ [5, 10], [2, 73], [6, 15], [3, 66]
+ [2, 73, 5, 10], [3, 66, 6, 15]
+ [2, 3, 5, 6, 10, 15, 66, 73]
+*/
+
+func mergeSort(_ nums: [Int]) -> [Int] {
+
+  if nums.count <= 1 { return nums }
+  
+  let mid = nums.count / 2
+
+  var lList = mergeSort(Array(nums[0..<mid]))
+  var rList = mergeSort(Array(nums[mid..<nums.count]))
+
+  var result: [Int] = []
+
+  while !lList.isEmpty && !rList.isEmpty {
+    if lList[0] < rList[0] {
+      result.append(lList.remove(at: 0))
+    } else {
+      result.append(rList.remove(at: 0))
+    }
+  }
+
+  // 배열 left 와 right 둘 중 하나에만 데이터가 남아 있는 경우가 있기 때문 아래와 같이 while문을 통해 작업해줘야된다.
+  while !lList.isEmpty {
+    result.append(lList.remove(at: 0))
+  }
+
+  while !rList.isEmpty {
+    result.append(rList.remove(at: 0))
+  }
+
+  return result
+}
+
+
+print(mergeSort(입력값))
