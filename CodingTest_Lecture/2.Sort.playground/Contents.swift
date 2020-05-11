@@ -95,7 +95,7 @@ insertion(입력값)
 func mergeSort(_ nums: [Int]) -> [Int] {
 
   if nums.count <= 1 { return nums }
-  
+
   let mid = nums.count / 2
 
   var lList = mergeSort(Array(nums[0..<mid]))
@@ -125,3 +125,24 @@ func mergeSort(_ nums: [Int]) -> [Int] {
 
 
 print(mergeSort(입력값))
+
+
+/*:
+### 퀵 정렬
+ * 피봇을 이용해서 정렬한다.
+ * best는 O(nLog2N), worst는 O(n2)
+ 
+*/
+
+func quickSort(_ nums: [Int]) -> [Int] {
+  
+  if nums.count <= 1 { return nums }
+  
+  let pivot = nums.first!
+  let lList = nums.filter { pivot > $0 }
+  let rList = nums.filter { pivot < $0 }
+
+  return quickSort(lList) + [pivot] + quickSort(rList)
+}
+
+quickSort(입력값)
