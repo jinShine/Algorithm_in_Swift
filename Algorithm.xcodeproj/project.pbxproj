@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		368FFCB9246932CA00DC5164 /* 3.Tree&Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3.Tree&Graph.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36AD36CF2465CCC0005F7AC4 /* 10.Decryption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 10.Decryption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36FE5CCD246685C600045FD6 /* 4.Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4.Tuple.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36FE5CCE2466A32500045FD6 /* 1.Recursive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.Recursive.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -48,6 +49,7 @@
 			children = (
 				36FE5CCE2466A32500045FD6 /* 1.Recursive.playground */,
 				36FE5CCF2467191B00045FD6 /* 2.Sort.playground */,
+				368FFCB9246932CA00DC5164 /* 3.Tree&Graph.playground */,
 				36AD36CF2465CCC0005F7AC4 /* 10.Decryption.playground */,
 			);
 			path = CodingTest_Lecture;
