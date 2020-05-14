@@ -1,7 +1,8 @@
 import UIKit
 
+
 /*:
- ### 문제1 : 배를 타고 섬으로 건너가라!
+ ### 문제3 : 배를 타고 섬으로 건너가라!
  * 다루고 있는 개념 : 시간 연산
  * 난이도 : 하
  
@@ -99,3 +100,4 @@ func ship(_ delayPeople: Int) -> String {
 }
 
 print(ship(1200202))
+

@@ -18,6 +18,7 @@
 		368FFCB9246932CA00DC5164 /* 3.Tree&Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3.Tree&Graph.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		368FFCBB24694DF600DC5164 /* 5.Survival.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 5.Survival.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		368FFCBC2469718200DC5164 /* 6.Ship.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 6.Ship.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		368FFCBD246D3B9800DC5164 /* 7.LRU_Algorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 7.LRU_Algorithm.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36AD36CF2465CCC0005F7AC4 /* 4.Decryption.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4.Decryption.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36FE5CCD246685C600045FD6 /* 4.Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4.Tuple.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		36FE5CCE2466A32500045FD6 /* 1.Recursive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1.Recursive.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -49,6 +50,7 @@
 		368FFCBA24694DE000DC5164 /* Question */ = {
 			isa = PBXGroup;
 			children = (
+				368FFCBD246D3B9800DC5164 /* 7.LRU_Algorithm.playground */,
 				36AD36CF2465CCC0005F7AC4 /* 4.Decryption.playground */,
 				368FFCBB24694DF600DC5164 /* 5.Survival.playground */,
 				368FFCBC2469718200DC5164 /* 6.Ship.playground */,
